@@ -1,0 +1,23 @@
+
+//declare variables in the main function
+    //float total stores the purchase amount and float paid stores the payment value
+
+//prompt user for input values for purchase total and amount paid
+
+//use check_amount to see if amount paid is sufficient
+    //if amount paid >= purchase total then return 1
+    //if amount paid < total then return 0
+
+//if payment is insufficient print "Insufficient payment"
+//if payment is sufficient then calculate change using change = paid - total
+
+//calculate breakdown of change using print_formatted(change)
+    //convert change into cents by using cents = change * 100
+    //calculate number of $5 bills using five_dollar = cents/500 and update remaining number of cents using cents %= 500
+    //calculate number of $1 bills using one_dollar = cents/100 and update remaining number of cents using cents %= 100
+    //calculate number of quarters using quarters = cents/25 and update remaining number of cents using cents %= 25
+    //calculate number of dimes using dimes = cents/10 and update remaining number of cents using cents %= 10
+    //calculate number of nickels using nickels = cents/5 and update remaining number of cents using cents %= 5
+    //calculate number of pennies using pennies = cents
+
+//Display the amount of change and the quantity of each dollar bill and coin if it is greater than 0
